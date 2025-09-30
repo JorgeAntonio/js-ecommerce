@@ -61,7 +61,7 @@ El proyecto consume la [Fake Store API](https://fakestoreapi.com/) para obtener:
 
 1. **Clona o descarga el proyecto**
    ```bash
-   git clone [url-del-repositorio]
+   git clone https://github.com/JorgeAntonio/js-ecommerce.git
    cd simple-ecommerce
    ```
 
