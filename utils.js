@@ -48,7 +48,7 @@ function addProductToCart(product, quantity = 1) {
     const productInCart = cart.find(item => item.id === product.id)
 
     if (productInCart) {
-        productInCart.quantity =+ quantity
+        productInCart.quantity += quantity
     } else {
         cart.push({...product, quantity})
     }

@@ -49,7 +49,7 @@ async function getSingleProduct() {
                             <span id="quantity">${quantity}</span>
                             <button onclick="increaseQuantity()" class="quantity-btn" type="button">+</button>
                         </div>
-                        <button onclick="addToCart()" class="product-add type="button">Agregar al carrito</button>
+                        <button onclick="addToCart()" class="product-add" type="button">Agregar al carrito</button>
                     </section>
                 </div>
             </div>
